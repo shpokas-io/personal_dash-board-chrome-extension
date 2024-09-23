@@ -19,35 +19,41 @@ main {
   justify-content: space-between;
 }
 
-div.top {
+.top {
   display: flex;
   justify-content: space-between;
 }
 
-h1.time {
+.time {
   text-align: center;
   font-size: 5rem;
 }
 
-div#crypto {
+#crypto {
   font-size: 1.3rem;
 }
 
-div#crypto > p {
+#crypto > p {
   margin: 0;
+  font-size: 2rem;
 }
 
-div#crypto-top {
+#crypto-top {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
 
-div#crypto-top > span {
-  margin-left: 10px;
+#crypto-top img {
+  width: 100px;
 }
 
-div#weather {
+#crypto-top > span {
+  margin-left: 10px;
+  font-size: 3rem;
+}
+
+#weather {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -55,7 +61,7 @@ div#weather {
   align-self: flex-start;
 }
 
-div#weather > img {
+#weather > img {
   width: 150px;
 }
 
@@ -67,7 +73,7 @@ div#weather > img {
   margin-top: -10px;
 }
 
-.weather-temperature {
+.weather-temp {
   margin: 0;
   font-size: 3rem;
   margin-top: -10px;
