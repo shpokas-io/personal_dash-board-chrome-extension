@@ -1,34 +1,50 @@
-/* GLOBAL RESET */
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background: url(images/bg.jpg) no-repeat center center fixed;
+  margin: 0;
+  background: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 0px 0px 20px #aaaaaa;
+  text-shadow: 0px 0px 20px #242424;
 }
 
 main {
-  padding: 0.9375rem;
+  padding: 15px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.top {
+div.top {
   display: flex;
   justify-content: space-between;
 }
 
-.time {
+h1.time {
   text-align: center;
+}
+
+div#crypto {
+  font-size: 1.3rem;
+}
+
+div#crypto > p {
+  margin: 0;
+}
+
+div#crypto-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+  margin-left: 10px;
 }
